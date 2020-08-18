@@ -40,10 +40,16 @@
  #background-azul{
      background-color: 	#a9fedf;
  }
+
+ #contato{
+   display: flex;
+   justify-content: space-around;
+   background-color: #FFFFB8 ;
+ }
  
  #menu li a {
     text-decoration: none;
-    color: #546de5;
+    color: black;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
  }
