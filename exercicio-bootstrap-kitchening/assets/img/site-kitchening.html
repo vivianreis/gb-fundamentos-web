@@ -6,6 +6,13 @@
     <title>Kitchening</title>
     <!-- Link para pegar o estilo do CSS dos servidores do Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        .footer{ 
+          background-color:#b92519;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+        }
+      </style>
 </head>
 <body background="./background-kitchening.png"> 
     <!--Logo-->
@@ -63,36 +70,36 @@
           <div class="row mt-5 d-flex justify-content-center">
             
             <!--Primeira fileira 3 imagens-->
-            <div class="col-md-4 p-0 mb-5">
+            <div class="col-md-4 d-flex p-2 mb-3">
               <div>
-                <div class="card bg-transparent">
+                <div class="card bg-transparent border-0">
                     <img class="card-img-top" src="./imagem-taca.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Lorem ipsum amet</h5>
+                      <h5 class="card-title font-weight-bold">Lorem ipsum amet</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                       <a href="#" class="btn btn-dark"> Ver mais </a>
                     </div>
                   </div>
               </div>
             </div>
-            <div class="col-md-4 p-0">
+            <div class="col-md-4 p-2">
               <div>
-                <div class="card bg-transparent">
+                <div class="card bg-transparent border-0">
                     <img class="card-img-top" src="./imagem-mantimentos.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Lorem ipsum amet</h5>
+                      <h5 class="card-title font-weight-bold">Lorem ipsum amet</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                       <a href="#" class="btn btn-dark"> Ver mais </a>
                     </div>
                   </div>
               </div>
             </div>  
-            <div class="col-md-4 p-0">
+            <div class="col-md-4 p-2">
                 <div>
-                    <div class="card bg-transparent">
+                    <div class="card bg-transparent border-0">
                         <img class="card-img-top" src="./imagem-restaurante.jpg" alt="Card image cap">
                         <div class="card-body">
-                          <h5 class="card-title">Lorem ipsum amet</h5>
+                          <h5 class="card-title font-weight-bold">Lorem ipsum amet</h5>
                           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                           <a href="#" class="btn btn-dark"> Ver mais </a>
                         </div>
@@ -102,36 +109,36 @@
               <!-- Fim primeira fileira com 3 imagens-->
 
               <!--Inicio segunda fileira com 3 imagens-->
-              <div class="col-md-4 p-0">
+              <div class="col-md-4 p-2">
                 <div>
-                  <div class="card bg-transparent">
+                  <div class="card bg-transparent border-0">
                       <img class="card-img-top" src="./imagem-taca.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum amet</h5>
+                        <h5 class="card-title font-weight-bold">Lorem ipsum amet</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <a href="#" class="btn btn-dark"> Ver mais </a>
                       </div>
                     </div>
                 </div>
               </div>
-              <div class="col-md-4 p-0">
+              <div class="col-md-4 p-2">
                 <div>
-                  <div class="card bg-transparent">
+                  <div class="card bg-transparent border-0">
                       <img class="card-img-top" src="./imagem-mantimentos.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum amet</h5>
+                        <h5 class="card-title font-weight-bold">Lorem ipsum amet</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <a href="#" class="btn btn-dark"> Ver mais </a>
                       </div>
                     </div>
                 </div>
               </div>  
-              <div class="col-md-4 p-0">
+              <div class="col-md-4 p-2">
                   <div>
-                      <div class="card bg-transparent">
+                      <div class="card bg-transparent border-0">
                           <img class="card-img-top" src="./imagem-restaurante.jpg" alt="Card image cap">
                           <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum amet</h5>
+                            <h5 class="card-title font-weight-bold">Lorem ipsum amet</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <a href="#" class="btn btn-dark"> Ver mais</a>
                           </div>
@@ -142,18 +149,19 @@
               
           </div>
           <!--Inicio footer-->
-          <div class="row mt-5 d-flex justify-content-center">
-
-            <div class="col-md-12 p-0 justify-content-center">
-              <div class="bg-danger pt-5 pb-5 d-flex justify-content-center rounded-top">
+          <footer>
+            <div class="container footer p-4 mt-5">
+                <div class="row ">
+                    <div class=" col-md-12 d-flex justify-content-center">
                   <a href="link" class="text-light"> Home | </a>
                   <a href="link" class="text-light"> Quienes | </a>
                   <a href="link" class="text-light"> Servicios | </a>
                   <a href="link" class="text-light"> Portifolio | </a>
                   <a href="link" class="text-light"> Contacto </a>
               </div>
+              </div>
             </div>        
-          </div>
+          </footer>
           <!-- Fim footer -->
       </div>
       <!-- /Grid-->
