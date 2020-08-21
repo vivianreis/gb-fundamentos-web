@@ -6,7 +6,7 @@ nome.style.width = "100%"
 email.style.width = "100%"
 
 function validaNome(){
-    let txt = document.querySelector("#txtNome")
+    let txtNome = document.querySelector("#txtNome")
     if(nome.value.length <= 2){
         txtNome.innerHTML = "Nome Inválido"
         txtNome.style.color = "red"
@@ -16,14 +16,15 @@ function validaNome(){
     }
 }
 
-function validaEmail(){
-    let txtEmail = document.querySelector("#txtEmail")
-
-    if(email.value.indexOf("@") == -1 || email.value.indexOf(".")){
-         txtEmail.innerHTML = "E-mail inválido"
-         txtEmail.style.color = "red"
+function validaEmail() {
+    let txtEmail = document.querySelector('#txtEmail') 
+ 
+    if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1 ) {
+       txtEmail.innerHTML = 'E-mail inválido'
+       txtEmail.style.color = 'red'
     } else {
-        txtEmail.innerHTML = "E-mail válido"
-         txtEmail.style.color = "green"
+       txtEmail.innerHTML = 'E-mail válido'
+       txtEmail.style.color = 'green'
+       emailOk = true
     }
-}
+ }
